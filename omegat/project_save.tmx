@@ -4,6 +4,334 @@
   <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="4.1.2_2_10096:10098" segtype="sentence" srclang="EN-US"/>
   <body>
 <!-- Default translations -->
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A new release happened every 2 to 3 months, and that release was declared “stable” and recommended for all users to run.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180328T064210Z" creationid="hfukuchi" creationdate="20180328T064210Z">
+        <seg>新リリースは、2、3か月ごとに実行されます。該当するリリースは「安定（stable）」と宣言され、全ユーザーがそれを使うことを推奨されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A non-scientific study (i.e. Greg’s mailbox) shows that each change needs to be submitted 2-3 times before it is accepted into the kernel source tree due to the rigorous review and testing process that all kernel changes are put through, so the engineering effort happening is much larger than the 8 changes per hour.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180328T061742Z" creationid="hfukuchi" creationdate="20180328T055856Z">
+        <seg>非科学的な調査（つまり、私Gregのメールボックス）によると、各変更は、Kernelソース ツリーへ受領されるまでに2、3回の再提出を必要としています。というのも、全変更提案がパスする必要がある非常に厳しいレビューとテストプロセスのためで、実際にかかっているエンジニアリング労力は1時間に8変更に対応するよりもずっと大きなものになっています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>All problems and mistakes in here are, of course, all mine.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180328T054519Z" creationid="hfukuchi" creationdate="20180328T053015Z">
+        <seg>勿論、すべての問題や誤りは、私に全責任があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>An average laptop uses around 2 million lines of kernel code from 5 thousand files to function properly, while the Pixel phone uses 3.2 million lines of kernel code from 6 thousand files due to the increased complexity of a SoC.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180328T063010Z" creationid="hfukuchi" creationdate="20180328T062633Z">
+        <seg>平均的なラップトップPCは、動作させるのに5000ファイル、200万行程度のKernelコードを使っていますが、一方で、スマートフォンは6000ファイル、320万行程度のKernelコードを使います。これは、使用しているSoCの増加する複雑さによるものです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>At the current kernel release rate, the number will change to 5.x sometime in 2018.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180328T080710Z" creationid="hfukuchi" creationdate="20180328T080710Z">
+        <seg>現在のKernelリリースの頻度からいくと、2018年に5.xへの変更があるでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>At the end of 2017 the size of the Linux kernel was just over 61 thousand files consisting of 25 million lines of code, build scripts, and documentation (kernel release 4.14).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180328T061802Z" creationid="hfukuchi" creationdate="20180328T061246Z">
+        <seg>2017年末の時点で、Linux Kernelの規模は、コード、ビルド スクリプト、文書を含めて6100ファイル以上、2500万行以上に達しています。（kernel release 4.14）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Because of this, an individual system only runs a fraction of the whole codebase.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180328T063154Z" creationid="hfukuchi" creationdate="20180328T062121Z">
+        <seg>このため、個別システムは、全コードベース中の一部分だけを使用しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Because of this, the stable kernel releases were started.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180328T085314Z" creationid="hfukuchi" creationdate="20180328T084714Z">
+        <seg>こうしたことから、Stable Kernelリリースが開始されたのです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>FEB 5&lt;t0/&gt;TH&lt;t1/&gt;, 2018</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180328T030256Z" creationid="hfukuchi" creationdate="20180328T030256Z">
+        <seg>2月5日&lt;t0/&gt;木&lt;t1/&gt;, 2018年</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For example, the 4.9 kernel is released by Linus, and then the stable kernel releases based on this kernel are numbered 4.9.1, 4.9.2, 4.9.3, &lt;t0/&gt;and so on.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180328T090359Z" creationid="hfukuchi" creationdate="20180328T090359Z">
+        <seg>たとえば、Kernel 4.9がリーナスからリリースされますと、このKernelリリースに対応するStable Kernelリリースは、4.9.1, 4.9.2, 4.9.3, というように番号付けられていきます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>I then used it as a basis of a presentation I gave at the &lt;t0/&gt;Linux Recipes conference in September 2017&lt;t1/&gt; which can be seen &lt;t2/&gt;here&lt;t3/&gt;.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180328T044950Z" creationid="hfukuchi" creationdate="20180328T030942Z">
+        <seg>&lt;t0/&gt;Linux Recipes conference in September 2017（https://kernel-recipes.org/en/2017/）&lt;t1/&gt;での私の発表も、この内容を基にしました。（&lt;t2/&gt;ここで見られますhttps://www.youtube.com/watch?v=RKadXpQLmPU&lt;t3/&gt;）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>I would like to thank the reviewers who helped shape the original whitepaper, which has helped many companies understand that they need to stop “cherry picking” random patches into their device kernels.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180328T054008Z" creationid="hfukuchi" creationdate="20180328T052859Z">
+        <seg>最初のホワイトペーパーが世に出るのを助けてくれたレビュワーに感謝します。それは、多くの企業に、自分たちのデバイスに使っているKernelへのパッチの「つまみ食い」を止めた方がいいと理解させるのに協力しました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you notice any, or have any questions about this, please let me know.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180328T053057Z" creationid="hfukuchi" creationdate="20180328T053057Z">
+        <seg>もし、何か気づいたことや質問があれば、私までお知らせ下さい。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In 2017, over 4,300 different developers from over 530 different &lt;t0/&gt;companies contributed to the project.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180328T055947Z" creationid="hfukuchi" creationdate="20180328T055030Z">
+        <seg>2017年には、530を超える企業の4300人以上の開発者がプロジェクトへ貢献しました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In July 2011, Linus Torvalds changed the version number to 3.x after the 2.6.39 kernel was released.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180328T073312Z" creationid="hfukuchi" creationdate="20180328T065549Z">
+        <seg>2011年7月にKernel 2.6.39がリリースされた後に、リーナス トーバルズ（Linus Torvalds）は、Kernelバージョンを3.xに変更しました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It is not remembered if any whisky exchanged hands when this happened.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180328T080546Z" creationid="hfukuchi" creationdate="20180328T080546Z">
+        <seg>この時に、ウイスキーが手渡されたかどうかは定かではありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Kernel release model</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180328T063021Z" creationid="hfukuchi" creationdate="20180328T063021Z">
+        <seg>Kernelリリースモデル</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Linux Kernel Release Model</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180328T030232Z" creationid="hfukuchi" creationdate="20180328T030232Z">
+        <seg>Linux Kernelリリース モデル</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Linux Kernel development model</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180328T054405Z" creationid="hfukuchi" creationdate="20180328T054405Z">
+        <seg>Linux Kernel開発モデル</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Note</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180328T053218Z" creationid="hfukuchi" creationdate="20180328T030316Z">
+        <seg>初めに</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>On average, 8.5 changes are accepted into the Linux kernel every hour, every hour of the day.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180328T055732Z" creationid="hfukuchi" creationdate="20180328T055732Z">
+        <seg>平均すると、1日の1時間、1時間ごとに8.5個の変更がLinux Kernelで受け付けられています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Overview</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180328T053114Z" creationid="hfukuchi" creationdate="20180328T053114Z">
+        <seg>全般</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Stable kernel releases</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180328T082406Z" creationid="hfukuchi" creationdate="20180328T080735Z">
+        <seg>Stable Kernelリリース</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The Linux kernel contains the code for all of the different chip architectures and hardware drivers that it supports.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180328T062018Z" creationid="hfukuchi" creationdate="20180328T062018Z">
+        <seg>Linux Kernelは、サポートしているすべてのアーキテクチャとハードウェア ドライバに対するコードを含みます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The Linux kernel is the largest collaborative software project ever.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180328T054721Z" creationid="hfukuchi" creationdate="20180328T054721Z">
+        <seg>Linux kernelは、これまでで最大の協力型ソフトウェア開発プロジェクトです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The Linux kernel stable release model started in 2005, when the existing development model of the kernel (a new release every 2-3 months) was determined to not be meeting the needs of most users.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180328T083357Z" creationid="hfukuchi" creationdate="20180328T083357Z">
+        <seg>Linux Kernel Stableリリース モデルは、2005年に始まりました。既存のKernl開発モデル（2、3か月ごとに新リリース）が、ほとんどのユーザーのニーズを満たしていないと判断されたのです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The change to the 3.x numbering series did not mean anything other than a change of the major release number, and this happened again in April 2015 with the movement from the 3.19 release to the 4.0 release number.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180328T080407Z" creationid="hfukuchi" creationdate="20180328T080407Z">
+        <seg>3.x番号付けへの変更は、メジャー リリース番号の変更以外の意味はありません。2015年4月に、再び、3.19から4.0へのリリース番号の変更がありました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The numbering of the kernel releases started out being 2.6.x, where x was an incrementing number that changed on every release The value of the number has no meaning, other than it is newer than the previous &lt;t0/&gt;kernel release.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180328T065607Z" creationid="hfukuchi" creationdate="20180328T065317Z">
+        <seg>Kernelのバージョン番号付けは2.6.xから始めました。Xは、リリースごとに増加する数字を意味します。数字は、前Kernelリリースよりも新しいことを示す以外に特別な意味はありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The numbering of the stable releases starts with the number of the kernel release, and an additional number is added to the end of it.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180328T090133Z" creationid="hfukuchi" creationdate="20180328T090133Z">
+        <seg>Stableリリースの番号付けは、Kernelリリースの番号から始まり、その後ろに追加番号が付きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>There were 5 different releases in 2017, with each release containing between 12,000 and 14,500 different changes.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180328T055210Z" creationid="hfukuchi" creationdate="20180328T055210Z">
+        <seg>2017年には5回のリリースが行われ、毎回12,000から14,500か所の変更が入っています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>These releases are based directly on Linus’s releases, and are released every week or so, depending on various external factors (time of year, available patches, maintainer workload, etc.)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180328T085910Z" creationid="hfukuchi" creationdate="20180328T085910Z">
+        <seg>これらのリリースは、リーナスのリリースに基づいて、さまざまな外部要因（時節、適用可能なパッチ、メンテナーの付加、等）にも依存しますが、毎週リリースされます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This change in development model was due to the very long release cycle prior to the 2.6 kernel (almost 3 years), and the struggle to maintain two different branches of the codebase at the same time.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180328T064938Z" creationid="hfukuchi" creationdate="20180328T064938Z">
+        <seg>この開発モデルの変更は、Kernel 2.6より前の非常に長いリリース サイクル（ほとんど3年程度）と、コードベースの2つの異なるブランチを同時に維持する苦闘、が理由で行われました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This post describes how the Linux kernel development model works, what a long term supported kernel is, how the kernel developers approach security bugs, and why all systems that use Linux should be using all of the stable releases and not attempting to pick and choose random patches.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180328T054540Z" creationid="hfukuchi" creationdate="20180328T053627Z">
+        <seg>この投稿では、Linux Kernel開発モデルがどのように運用されているか、長期保守（long term supported）Kernelとは何物か、Kernel開発者はセキュリティ バグにどのように挑むか、また、Linuxを利用する全システムはパッチのつまみ食いを止めてすべてのStableパッチを取り込むべきである理由、を説明します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This post is based on a whitepaper I wrote at the beginning of 2016 to be used to help many different companies understand the Linux kernel release model and encourage them to start taking the LTS stable updates more often.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180328T044703Z" creationid="hfukuchi" creationdate="20180328T030841Z">
+        <seg>この投稿は、2016年初めに書いたホワイトペーパーを基にしています。このホワイトペーパーは、多くの企業がLinux Kernelリリース モデルを理解した上でLTSの更新をもっと頻繁に採用することを奨励するために書かれたものです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This sequence is usually shortened with the number “4.9.y” when referring to a stable kernel release tree.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180328T090610Z" creationid="hfukuchi" creationdate="20180328T090610Z">
+        <seg>Stable Kernelツリーを参照している場合、この系列は、普通、短く“4.9.y”と表現されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This was done because the higher numbers were starting to cause confusion among users, and because Greg Kroah-Hartman, the stable kernel maintainer, was getting tired of the large numbers and bribed Linus with a fine bottle of Japanese whisky.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180328T082426Z" creationid="hfukuchi" creationdate="20180328T073614Z">
+        <seg>このことが起きたのは、大きなバージョン番号がユーザーに混乱をもたらし始めていたこと、Stable Kernelメンテナーのグレッグ クロー ハートマン（Greg Kroah-Hartman）が大きな数字に飽きてリーナスを焼酎の銘柄ボトルで買収したこと、に起因します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Trying to keep individual kernels secure and with the latest bugfixes was a large and confusing effort by lots of different individuals.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180328T084644Z" creationid="hfukuchi" creationdate="20180328T084644Z">
+        <seg>個々のKernelを最新の不具合修正を取り込みながらセキュアに保つことは、多数の個人によって行われた混乱を伴う莫大な努力でした。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Users wanted bugfixes that were made during those 2-3 months, and the Linux distributions were getting tired of trying to keep their kernels up to date without any feedback from the kernel community.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180328T084150Z" creationid="hfukuchi" creationdate="20180328T084150Z">
+        <seg>ユーザーは、この2，3か月の期間に不具合修正が実行されることを望んでいました。Linuxディストリビューションは、コミュニティからのフィードバックが無い中で彼らのKernelを最新に保つ作業に疲弊していました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>With the release of the 2.6 kernel in December of 2003, the kernel developer community switched from the previous model of having a separate development and stable kernel branch, and moved to a “stable only” branch model.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180328T063655Z" creationid="hfukuchi" creationdate="20180328T063655Z">
+        <seg>2003年12月のKernel 2.6のリリースから、Kernelコミュニティは、個別の開発ブランチと安定ブランチを持つモデルから、安定ブランチだけのモデルへ切り替えました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>With the &lt;t0/&gt;recent craziness of Meltdown and Spectre&lt;t1/&gt; , I’ve seen lots of things written about how Linux is released and how we handle handles security patches that are totally incorrect, so I figured it is time to dust off the text, update it in a few places, and publish this here for everyone to benefit from.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180328T045645Z" creationid="hfukuchi" creationdate="20180328T044626Z">
+        <seg>&lt;t0/&gt;最近起きたMeltdownとSpectreに関する大騒ぎ&lt;t1/&gt;の最中に、Linuxのリリース方法やセキュリティ パッチの管理について書かれた多くのものを見ましたが、全く間違っていました。それで、潮時が来たことを知り、ホワイトペーパーのほこりを払い、数か所だけ書き換え、皆さんのためになるようにここに公開することにしました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Without their help, this post would be a total mess.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180328T054019Z" creationid="hfukuchi" creationdate="20180328T052941Z">
+        <seg>彼らの手助けなしには、この投稿は完全にめちゃくちゃな文章になっていたことでしょう。</seg>
+      </tuv>
+    </tu>
 <!-- Alternative translations -->
   </body>
 </tmx>
