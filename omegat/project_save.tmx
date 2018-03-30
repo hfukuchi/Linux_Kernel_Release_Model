@@ -48,8 +48,8 @@
       <tuv lang="EN-US">
         <seg>After that was very successful, and allowed developers to share work across companies, those companies decided to not do that anymore, so future LTS kernels were picked on an individual distribution’s needs and maintained by different developers (3.0.y, 3.2.y, 3.12.y, 3.16.y, and 3.18.y) creating more work and confusion for everyone involved.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20180329T030257Z" creationid="hfukuchi" creationdate="20180329T030257Z">
-        <seg>このモデルは大変成功し、開発者は企業を超えて作業を分担することができましたが、その後、企業は企業間で分担することをやめさせました。将来のLTS Kernelはあるディストリビューションの要望に基づいて選定され、異なる開発者によって保守されることになりましたが、これは関係者に大きな作業と混乱をもたらすことになりました。（3.0.y, 3.2.y, 3.12.y, 3.16.y, and 3.18.y）</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180330T003847Z" creationid="hfukuchi" creationdate="20180329T030257Z">
+        <seg>このモデルは大変成功し、開発者は企業を超えて作業を分担することができましたが、その後、企業は企業間で分担することをやめさせました。将来のLTS Kernelはある特定のディストリビューションの要望に基づいて選定され、異なる開発者によって保守されることになりましたが、これは関係者に大きな作業と混乱をもたらすことになりました。（3.0.y, 3.2.y, 3.12.y, 3.16.y, 3.18.y）　</seg>
       </tuv>
     </tu>
     <tu>
@@ -72,8 +72,8 @@
       <tuv lang="EN-US">
         <seg>An average laptop uses around 2 million lines of kernel code from 5 thousand files to function properly, while the Pixel phone uses 3.2 million lines of kernel code from 6 thousand files due to the increased complexity of a SoC.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20180328T063010Z" creationid="hfukuchi" creationdate="20180328T062633Z">
-        <seg>平均的なラップトップPCは、動作させるのに5000ファイル、200万行程度のKernelコードを使っていますが、一方で、スマートフォンは6000ファイル、320万行程度のKernelコードを使います。これは、使用しているSoCの増加する複雑さによるものです。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180330T003348Z" creationid="hfukuchi" creationdate="20180328T062633Z">
+        <seg>平均的なラップトップPCは、動作させるのに5,000ファイル、200万行程度のKernelコードを使っていますが、一方で、スマートフォンは6,000ファイル、320万行程度のKernelコードを使います。これは、使用しているSoCの増加する複雑さによるものです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -96,8 +96,8 @@
       <tuv lang="EN-US">
         <seg>At the end of 2017 the size of the Linux kernel was just over 61 thousand files consisting of 25 million lines of code, build scripts, and documentation (kernel release 4.14).</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20180328T061802Z" creationid="hfukuchi" creationdate="20180328T061246Z">
-        <seg>2017年末の時点で、Linux Kernelの規模は、コード、ビルド スクリプト、文書を含めて6100ファイル以上、2500万行以上に達しています。（kernel release 4.14）</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180330T003408Z" creationid="hfukuchi" creationdate="20180328T061246Z">
+        <seg>2017年末の時点で、Linux Kernelの規模は、コード、ビルド スクリプト、文書を含めて6,100ファイル以上、2,500万行以上に達しています。（kernel release 4.14）</seg>
       </tuv>
     </tu>
     <tu>
@@ -112,8 +112,8 @@
       <tuv lang="EN-US">
         <seg>Because of this, Greg Kroah-Hartman decided that the choice of the LTS kernel needed to change to a method in which companies can plan on using the LTS kernel in their products.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20180329T032311Z" creationid="hfukuchi" creationdate="20180329T032311Z">
-        <seg>こうしたことから、グレッグ クロー ハートマンは、LTS Kernel選定を、企業がLTS Kernelを製品に使うように計画できる方法に改める必要があると判断しました。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180330T004256Z" creationid="hfukuchi" creationdate="20180329T032311Z">
+        <seg>こうした理由で、グレッグ クロー ハートマンは、LTS Kernel選定を、企業がLTS Kernelを使った製品の計画ができる方法に改める必要があると判断しました。</seg>
       </tuv>
     </tu>
     <tu>
@@ -176,8 +176,8 @@
       <tuv lang="EN-US">
         <seg>During this process, the LTS kernel would only be announced after the release happened, making it hard for companies to plan ahead of time what to use in their new product, causing lots of guessing and misinformation to be spread around.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20180329T044816Z" creationid="hfukuchi" creationdate="20180329T043701Z">
-        <seg>このプロセス中、LTS Kernelはリリースされた後にしか宣言されませんでしたので、このことは、企業が製品へどのKernelを利用するか事前に計画するのを難しくし、多くの推測や誤った情報が広まる原因ともなりました。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180330T004412Z" creationid="hfukuchi" creationdate="20180329T043701Z">
+        <seg>このプロセスでは、LTS Kernelはリリースされた後にしか宣言されませんので、このことは、企業が製品へどのKernelを利用するか事前に計画するのを難しくし、多くの推測や誤った情報が広まる原因ともなりました。</seg>
       </tuv>
     </tu>
     <tu>
@@ -192,8 +192,8 @@
       <tuv lang="EN-US">
         <seg>FEB 5&lt;t0/&gt;TH&lt;t1/&gt;, 2018</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20180328T030256Z" creationid="hfukuchi" creationdate="20180328T030256Z">
-        <seg>2月5日&lt;t0/&gt;木&lt;t1/&gt;, 2018年</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180330T003331Z" creationid="hfukuchi" creationdate="20180328T030256Z">
+        <seg>2月5日&lt;t0/&gt;木曜日&lt;t1/&gt;　2018年</seg>
       </tuv>
     </tu>
     <tu>
@@ -210,6 +210,14 @@
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180329T052459Z" creationid="hfukuchi" creationdate="20180329T052459Z">
         <seg>将来のLTS Kernelは、このリリース サイクルを基に計画するべきでしょう。（つまり、その年の最後のKernel）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Hopefully that will allow the SoC vendors to continue to update their device kernels in order to provide more secure devices for their users.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180330T014916Z" creationid="hfukuchi" creationdate="20180330T014821Z">
+        <seg>こうしたやり方を採用すると、SoCベンダーがユーザーに対してセキュアなデバイスを提供するために、デバイスのKernelを継続してアップデートすることが可能となるでしょう。</seg>
       </tuv>
     </tu>
     <tu>
@@ -264,8 +272,16 @@
       <tuv lang="EN-US">
         <seg>Information about all long-term stable kernels, who is in charge of them, and how long they will be maintained, can be found on the &lt;t0/&gt;kernel.org release page&lt;t1/&gt;.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20180329T013409Z" creationid="hfukuchi" creationdate="20180329T013409Z">
-        <seg>すべてのlong-term stable kernelsの情報（誰が責任者か、いつまで保守されるか）については &lt;t0/&gt;kernel.org release page&lt;t1/&gt;で見ることができます。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180330T003641Z" creationid="hfukuchi" creationdate="20180329T013409Z">
+        <seg>すべてのLTS Kernelの情報（誰が責任者か、いつまで保守されるか）については &lt;t0/&gt;kernel.org release page&lt;t1/&gt;で見ることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It is encouraging to see that the Android project has standardized on the LTS kernels as a “minimum kernel version requirement”.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180330T014559Z" creationid="hfukuchi" creationdate="20180330T014559Z">
+        <seg>Androidプロジェクトが「最低限のKernelバージョン要求（minimum kernel version requirement）」としてLTS Kernelを標準化しているのを 是非参考にして下さい。</seg>
       </tuv>
     </tu>
     <tu>
@@ -344,16 +360,16 @@
       <tuv lang="EN-US">
         <seg>Originally it was merely based on what kernel the stable maintainer’s employer was using for their product (2.6.16.y and 2.6.27.y) in order to make the effort of maintaining that kernel easier.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20180329T024130Z" creationid="hfukuchi" creationdate="20180329T024130Z">
-        <seg>最初は、Stableメンテナーの所属する企業が製品に利用しているKernel(2.6.16.y and 2.6.27.y)が、保守を楽にする目的で、選ばれました。 </seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180330T003752Z" creationid="hfukuchi" creationdate="20180329T024130Z">
+        <seg>当初は、Stableメンテナーの所属する企業が製品に利用しているKernelが、保守を楽にする目的で選ばれました。(2.6.16.y and 2.6.27.y)　</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>Other distribution maintainers saw the benefit of this model and got together and colluded to get their companies to all release a product based on the same kernel version without realizing it (2.6.32.y).</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20180329T025415Z" creationid="hfukuchi" creationdate="20180329T025415Z">
-        <seg>この保守モデルの利点に気づいた他のディストリビューション メンテナーたちは、皆で結託して彼らの企業をそそのかし、企業は気づかないままに同じKernelバージョンを製品に載せました。(2.6.32.y).</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180330T003745Z" creationid="hfukuchi" creationdate="20180329T025415Z">
+        <seg>この保守モデルの利点に気づいた他のディストリビューション メンテナーたちは、皆で結託して彼らの企業をそそのかし、企業は気づかないままに同じKernelバージョンを製品に載せました。(2.6.32.y)　</seg>
       </tuv>
     </tu>
     <tu>
@@ -496,8 +512,8 @@
       <tuv lang="EN-US">
         <seg>The fallout of that mess took many months to unwind and stabilize the kernel to a proper level.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20180329T050200Z" creationid="hfukuchi" creationdate="20180329T050200Z">
-        <seg>この混乱を解きほぐして、Kernelを適切なレベルに戻すのに数か月を要しました。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180330T004513Z" creationid="hfukuchi" creationdate="20180329T050200Z">
+        <seg>この混乱を収拾してKernelを適切なレベルに戻すのに数か月を要しました。</seg>
       </tuv>
     </tu>
     <tu>
@@ -616,24 +632,24 @@
       <tuv lang="EN-US">
         <seg>This ad-hoc method of catering to only specific Linux distributions was not beneficial to the millions of devices that used Linux in an embedded system and were not based on a traditional Linux distribution.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20180329T031356Z" creationid="hfukuchi" creationdate="20180329T030556Z">
-        <seg>特定のLinuxディストリビューションの要望にだけ応じる特別な方法は、組み込みシステムでLinuxを利用しているが伝統的なLinuxディストリビューションに基づいていないようなデバイスには便益がありませんでした。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180330T003957Z" creationid="hfukuchi" creationdate="20180329T030556Z">
+        <seg>特定のLinuxディストリビューションの要望にだけ応じる特別な方法は、Linuxを利用しているものの伝統的なLinuxディストリビューションには基づいていない組み込みシステムのデバイスには便益がありませんでした。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>This allows devices to receive bug and security updates directly from the Linux kernel community, without having to rely on the SoC vendor’s backporting efforts, which traditionally are very slow to respond to problems.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20180329T092936Z" creationid="hfukuchi" creationdate="20180329T092936Z">
-        <seg>こうすることで、伝統的に問題への対応が遅いSoCベンダーのバックポーティングに依存せず、デバイスに、不具合やセキュリティに関するアップデートをLinux Kernelコミュニティから直接受け取ることができます。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180330T014306Z" creationid="hfukuchi" creationdate="20180329T092936Z">
+        <seg>この取り組みによって、伝統的に問題への対応が遅いSoCベンダーのバックポーティングに依存せず、不具合やセキュリティに関するアップデートを直接Linux Kernelコミュニティからデバイスが受け取ることができます。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>This change in development model was due to the very long release cycle prior to the 2.6 kernel (almost 3 years), and the struggle to maintain two different branches of the codebase at the same time.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20180328T064938Z" creationid="hfukuchi" creationdate="20180328T064938Z">
-        <seg>この開発モデルの変更は、Kernel 2.6より前の非常に長いリリース サイクル（ほとんど3年程度）と、コードベースの2つの異なるブランチを同時に維持する苦闘、が理由で行われました。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180330T003540Z" creationid="hfukuchi" creationdate="20180328T064938Z">
+        <seg>この開発モデルの変更は、Kernel 2.6より前の非常に長いリリース サイクル（ほとんど3年程度）と、コードベースの2つの異なるブランチを同時に維持する苦闘が理由で行われました。</seg>
       </tuv>
     </tu>
     <tu>
@@ -720,8 +736,8 @@
       <tuv lang="EN-US">
         <seg>This was done on purpose as previously, when companies and kernel developers knew ahead of time what the next LTS kernel was going to be, they relaxed their normal stringent review process and allowed lots of untested code to be merged (2.6.32.y).</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20180329T045804Z" creationid="hfukuchi" creationdate="20180329T044737Z">
-        <seg>前に書いた理由でこれは実施されましたが、企業や開発者が次のLTS Kernelになるものを事前に知っている時には、彼らは、通常は厳しいはずのレビュープロセスを緩和し、テストしていない多数のコードをマージしました。（2.6.32.y）.</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180330T004424Z" creationid="hfukuchi" creationdate="20180329T044737Z">
+        <seg>前に書いた理由でこれは実施されましたが、企業や開発者が次のLTS Kernelになるものを事前に知っている時には、彼らは、通常は厳しいはずのレビュープロセスを緩和し、テストしていない多数のコードをマージしました。（2.6.32.y）　</seg>
       </tuv>
     </tu>
     <tu>
