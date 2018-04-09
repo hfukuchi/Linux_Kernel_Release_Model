@@ -198,6 +198,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Almost every LTS release contains at least one known security fix, and many yet “unknown”.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180409T023307Z" creationid="hfukuchi" creationdate="20180409T023307Z">
+        <seg>ほとんどすべてのLTSリリースは、少なくとも一つの既知のセキュリティ修正と、多くの知られていないセキュリティ修正を含んでいます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Along with these three kernel releases, a few older kernels are still being maintained by some kernel developers at a slower release cycle due to the needs of some users and distributions.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180329T012853Z" creationid="hfukuchi" creationdate="20180329T012853Z">
@@ -250,6 +258,30 @@
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180402T073300Z" creationid="hfukuchi" creationdate="20180402T073300Z">
         <seg>上に述べたように、こうした変更は、Kernelの不具合修正と同じように扱われ、「セキュリティ修正」と記載されることはまずありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>As of this writing (5 months later) only two devices have fixed their kernel and are now not vulnerable to that specific bug.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180409T031450Z" creationid="hfukuchi" creationdate="20180409T031450Z">
+        <seg>本稿の著作時点（5か月後）、たった2つのデバイスだけがKernelを修正し、この特定の不具合に関してですが、脆弱性を取り除いています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>As proof of this, I demoed at the Kernel Recipes talk referenced above how trivial it was to crash all of the latest flagship Android phones on the market with a tiny userspace program.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180409T032042Z" creationid="hfukuchi" creationdate="20180409T030738Z">
+        <seg>これを証明するために、私は、上で紹介したKernel Recipesのトークで、市場で売られているAndroidスマートフォンの最新フラッグシップ モデルすべてをクラッシュさせるのはいかにささいなことでできるかを、小さなユーザースペース プログラムを使ってデモしました。 </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>As was described above, it is not wise to try to pick and choose various patches from the LTS releases because:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180409T010909Z" creationid="hfukuchi" creationdate="20180409T010829Z">
+        <seg>上にも書きましたように、LTSリリースからパッチを選択して取り込むのは賢い方法ではありません。それは以下の理由です：</seg>
       </tuv>
     </tu>
     <tu>
@@ -314,6 +346,14 @@
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180402T084228Z" creationid="hfukuchi" creationdate="20180402T084228Z">
         <seg>セキュリティ不具合はKernelチームから一般にアナウンスされません。ですから、Linux Kernel関連問題のCVE番号は、もしあったとしても、通常、修正がStableと開発ブランチにマージされてから数週間後、数か月後、時には数年後にリリースされます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Changes to parts of the kernel that you do not build/run are fine and can cause no problems to your system.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180409T025246Z" creationid="hfukuchi" creationdate="20180409T025246Z">
+        <seg>あなたがビルドしない／使わないKernel部分への変更は、確かに、あなたのシステムに問題を起こさないかもしれません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -478,10 +518,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If testing shows a problem, the kernel developer community will react quickly to resolve the issue.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180409T023425Z" creationid="hfukuchi" creationdate="20180409T023425Z">
+        <seg>テストで問題が見つかれば、Kernel開発者コミュニティはすぐにその問題を解決するように動きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you notice any, or have any questions about this, please let me know.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180328T053057Z" creationid="hfukuchi" creationdate="20180328T053057Z">
         <seg>もし、何か気づいたことや質問があれば、私までお知らせ下さい。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you wait months or years to do an update, the kernel developer community will not be able to even remember what the updates were given the long delay.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180409T024609Z" creationid="hfukuchi" creationdate="20180409T024609Z">
+        <seg>アップデートを数か月、数年待つと、Kernel開発者コミュニティは、アップデートが長い期間されないものが何なのかさえ覚えていられないでしょう。</seg>
       </tuv>
     </tu>
     <tu>
@@ -510,6 +566,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In every case, severe security fixes have been ignored and not applied.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180409T030114Z" creationid="hfukuchi" creationdate="20180409T030114Z">
+        <seg>すべてのケースで、深刻なセキュリティ修正が見過ごされ、適用されていませんでした。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Information about all long-term stable kernels, who is in charge of them, and how long they will be maintained, can be found on the &lt;t0/&gt;kernel.org release page&lt;t1/&gt;.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180330T003641Z" creationid="hfukuchi" creationdate="20180329T013409Z">
@@ -526,6 +590,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>It is hard, if not impossible, to determine which patches fix “security” issues and which do not.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180409T031847Z" creationid="hfukuchi" creationdate="20180409T022721Z">
+        <seg>どのパッチが「セキュリティ」問題を解決し、どれが解決しないかを決めるのは、たとえ不可能でないにしても難しいです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>It is not remembered if any whisky exchanged hands when this happened.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180329T070508Z" creationid="hfukuchi" creationdate="20180328T080546Z">
@@ -536,16 +608,16 @@
       <tuv lang="EN-US">
         <seg>It was real</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20180402T082812Z" creationid="hfukuchi" creationdate="20180402T082520Z">
-        <seg>開発者が</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180409T033121Z" creationid="hfukuchi" creationdate="20180402T082520Z">
+        <seg>それは、開発者が</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>It's</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20180402T082412Z" creationid="hfukuchi" creationdate="20180402T082217Z">
-        <seg>その理由で</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180409T033052Z" creationid="hfukuchi" creationdate="20180402T082217Z">
+        <seg>そんな理由で</seg>
       </tuv>
     </tu>
     <tu>
@@ -662,6 +734,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Note, this author has audited many SoC kernel trees that attempt to cherry-pick random patches from the upstream LTS releases.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180409T030014Z" creationid="hfukuchi" creationdate="20180409T030014Z">
+        <seg>注記：本著者は、アップストリームLTSリリースから無作為にパッチをつまみ食いしている多くのSoC Kernelツリーを監査しました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>On average, 8.5 changes are accepted into the Linux kernel every hour, every hour of the day.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180328T055732Z" creationid="hfukuchi" creationdate="20180328T055732Z">
@@ -706,6 +786,14 @@
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180402T062841Z" creationid="hfukuchi" creationdate="20180402T062652Z">
         <seg>人々は正しく、マーキングは無意味である。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Posted by Greg Kroah-Hartman&lt;t0/&gt; Feb 5&lt;t1/&gt;th&lt;t2/&gt;, 2018 &lt;t3/&gt; &lt;t4/&gt;kernel&lt;t5/&gt;, &lt;t6/&gt;linux&lt;t7/&gt;, &lt;t8/&gt;stable</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180409T031550Z" creationid="hfukuchi" creationdate="20180409T031550Z">
+        <seg>グレッグ クロー ハートマン投稿　&lt;t0/&gt; 2月5日&lt;t1/&gt;木曜日&lt;t2/&gt;2018年 &lt;t3/&gt; &lt;t4/&gt;kernel&lt;t5/&gt;, &lt;t6/&gt;linux&lt;t7/&gt;, &lt;t8/&gt;stable</seg>
       </tuv>
     </tu>
     <tu>
@@ -878,6 +966,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The fix for this issue was released 6 months prior in the LTS kernel that the devices were based on, however none of the devices had upgraded or fixed their kernels &lt;t0/&gt;for this problem.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180409T032125Z" creationid="hfukuchi" creationdate="20180409T031235Z">
+        <seg>この問題の修正は、デバイスが使っているLTS Kernelには6か月前にリリースされていましたが、一つのデバイスとしてこの問題を解決するために、Kernelのアップグレードや修正をしていませんでした。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The full list of the rules for patches to be accepted into a stable kernel release can be found in the &lt;t0/&gt;Documentation/process/stable_kernel_rules.rst&lt;t1/&gt;kernel file and are summarized here.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180329T054950Z" creationid="hfukuchi" creationdate="20180329T054950Z">
@@ -946,6 +1042,14 @@
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180329T014536Z" creationid="hfukuchi" creationdate="20180329T014536Z">
         <seg>多くの新しい不具合修正は古いKernelに無関係ですので、LTS Kernelが古いほど、適用可能なパッチの数は少なくなります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The releases have been reviewed by the kernel developers as a whole, not in individual parts</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180409T031842Z" creationid="hfukuchi" creationdate="20180409T022510Z">
+        <seg>リリースは、Kernel開発者によってコード全体としてレビューされていて、個別の一部分だけがレビューされているわけではないです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1150,6 +1254,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To try to filter out only the changes you run will cause a kernel tree that will be impossible to merge correctly with future upstream releases.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180409T025711Z" creationid="hfukuchi" creationdate="20180409T025346Z">
+        <seg>でも、あなたが必要な変更だけをフィルターすることこそが、Kernelツリーを、将来のアップストリーム リリースと正しくマージできなくしてしまうでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Trying to keep individual kernels secure and with the latest bugfixes was a large and confusing effort by lots of different individuals.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180328T084644Z" creationid="hfukuchi" creationdate="20180328T084644Z">
@@ -1194,6 +1306,14 @@
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20180402T065355Z" creationid="hfukuchi" creationdate="20180402T065355Z">
         <seg>そのことは明白でしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When deploying a device that uses Linux, it is strongly recommended that all LTS kernel updates be taken by the manufacturer and pushed out to their users after proper testing shows the update works well.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180409T010354Z" creationid="hfukuchi" creationdate="20180402T091704Z">
+        <seg>Linuxを利用するデバイスを市場投入するのであれば、製造者に対して、以下の点を強く推奨します。すなわち、すべてのLTS Kernelアップデートを対応した上で、アップデートが動作することを適切なテストで確認してユーザーに示すことです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1384,8 +1504,8 @@
       <tuv lang="EN-US">
         <seg>private for a reason, even if it's real information.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20180402T083002Z" creationid="hfukuchi" creationdate="20180402T082403Z">
-        <seg>それがプライベートなわけです。たとえ、それが重要な情報であってもです。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180409T033116Z" creationid="hfukuchi" creationdate="20180402T082403Z">
+        <seg>プライベートなわけです。たとえ、それが重要な情報であってもです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1416,8 +1536,8 @@
       <tuv lang="EN-US">
         <seg>should work.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20180402T082117Z" creationid="hfukuchi" creationdate="20180402T082117Z">
-        <seg>ことが動くべき方法です。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180409T033041Z" creationid="hfukuchi" creationdate="20180402T082117Z">
+        <seg>ことが動くべき方法というものです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1440,8 +1560,8 @@
       <tuv lang="EN-US">
         <seg>the opposite view.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20180402T080255Z" creationid="hfukuchi" creationdate="20180402T080255Z">
-        <seg>逆の見方をします。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180409T033644Z" creationid="hfukuchi" creationdate="20180402T080255Z">
+        <seg>逆の見方をしています。</seg>
       </tuv>
     </tu>
     <tu>
