@@ -8,8 +8,8 @@
       <tuv lang="EN-US">
         <seg>(and that one goes to the private security list just because we don't want</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20180412T064849Z" creationid="hfukuchi" creationdate="20180402T081749Z">
-        <seg>（何故プライベートで送るかと言うと、世界中の人がその問題をテストしようとするのを</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180417T090203Z" creationid="hfukuchi" creationdate="20180402T081749Z">
+        <seg>（何故プライベートで送るかというと、世界中の人がその問題をテストしようとするのを</seg>
       </tuv>
     </tu>
     <tu>
@@ -64,8 +64,8 @@
       <tuv lang="EN-US">
         <seg>&gt; fixing a security issue.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20180412T064747Z" creationid="hfukuchi" creationdate="20180402T060558Z">
-        <seg>&gt; 言うためにマークするのでしょう。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180417T090203Z" creationid="hfukuchi" creationdate="20180402T060558Z">
+        <seg>&gt; いうためにマークするのでしょう。</seg>
       </tuv>
     </tu>
     <tu>
@@ -96,8 +96,8 @@
       <tuv lang="EN-US">
         <seg>&gt; treated as normal bugs because you do omit relevant information from such</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20180412T064821Z" creationid="hfukuchi" creationdate="20180402T074321Z">
-        <seg>&gt; 普通の不具合のようには扱われません。と言うのも、コミットから関連する情報が</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180417T090127Z" creationid="hfukuchi" creationdate="20180402T074321Z">
+        <seg>&gt; 普通の不具合のようには扱われません。というのも、コミットから関連する情報が</seg>
       </tuv>
     </tu>
     <tu>
@@ -144,8 +144,8 @@
       <tuv lang="EN-US">
         <seg>A non-scientific study (i.e. Greg’s mailbox) shows that each change needs to be submitted 2-3 times before it is accepted into the kernel source tree due to the rigorous review and testing process that all kernel changes are put through, so the engineering effort happening is much larger than the 8 changes per hour.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20180412T064640Z" creationid="hfukuchi" creationdate="20180328T055856Z">
-        <seg>非科学的な調査（つまり、グレッグのメールボックス）によると、各変更は、Kernelソース ツリーへ受領されるまでに2、3回の再提出を必要としています。と言うのも、変更提案のすべてがパスする必要がある非常に厳しいレビューとテストプロセスのためで、エンジニアリングの労力として実際にかかっているのは1時間に8変更に対応するよりもずっと大きなものになっています。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180417T090127Z" creationid="hfukuchi" creationdate="20180328T055856Z">
+        <seg>非科学的な調査（つまり、グレッグのメールボックス）によると、各変更は、Kernelソース ツリーへ受領されるまでに2、3回の再提出を必要としています。というのも、変更提案のすべてがパスする必要がある非常に厳しいレビューとテストプロセスのためで、エンジニアリングの労力として実際にかかっているのは1時間に8変更に対応するよりもずっと大きなものになっています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -160,8 +160,8 @@
       <tuv lang="EN-US">
         <seg>Actually, we disagree on one fundamental thing.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20180412T061545Z" creationid="hfukuchi" creationdate="20180402T074617Z">
-        <seg>実に根本的ななところで同意できません。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180417T090802Z" creationid="hfukuchi" creationdate="20180402T074617Z">
+        <seg>実に根本的なところで同意できません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -376,8 +376,8 @@
       <tuv lang="EN-US">
         <seg>Devices based on Linux that have large patchsets can have major issues when updating to newer kernels, because of the huge number of changes between each release.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20180412T064703Z" creationid="hfukuchi" creationdate="20180329T073353Z">
-        <seg>Linuxを採用するデバイスは、大きなパッチセットを持っており、新しいKernelへアップデートする際に大きな問題を抱える可能性があります。と言うのもリリース間で莫大な数の変更をする必要があるからです。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180417T090127Z" creationid="hfukuchi" creationdate="20180329T073353Z">
+        <seg>Linuxを採用するデバイスは、大きなパッチセットを持っており、新しいKernelへアップデートする際に大きな問題を抱える可能性があります。というのもリリース間で莫大な数の変更をする必要があるからです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -416,8 +416,8 @@
       <tuv lang="EN-US">
         <seg>For example, the 4.9 kernel is released by Linus, and then the stable kernel releases based on this kernel are numbered 4.9.1, 4.9.2, 4.9.3, &lt;t0/&gt;and so on.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20180412T064653Z" creationid="hfukuchi" creationdate="20180328T090359Z">
-        <seg>たとえば、Kernel 4.9がリーナスからリリースされると、このKernelリリースに対応するStable Kernelリリースは、4.9.1、4.9.2、4.9.3、 と言うように番号付けされていきます。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180417T090203Z" creationid="hfukuchi" creationdate="20180328T090359Z">
+        <seg>たとえば、Kernel 4.9がリーナスからリリースされると、このKernelリリースに対応するStable Kernelリリースは、4.9.1、4.9.2、4.9.3、 というように番号付けされていきます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -488,16 +488,16 @@
       <tuv lang="EN-US">
         <seg>I expressly told you that security bugs should not be marked as such,</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20180412T074900Z" creationid="hfukuchi" creationdate="20180402T055919Z">
-        <seg>あなたにはっきりと言いましたが、セキュリティ不具合はそう言うようにマークするべきではないです。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180417T090203Z" creationid="hfukuchi" creationdate="20180402T055919Z">
+        <seg>あなたにはっきりと言いましたが、セキュリティ不具合はそういうようにマークするべきではないです。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>I then used it as a basis of a presentation I gave at the &lt;t0/&gt;Linux Recipes conference in September 2017&lt;t1/&gt; which can be seen &lt;t2/&gt;here&lt;t3/&gt;.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20180328T044950Z" creationid="hfukuchi" creationdate="20180328T030942Z">
-        <seg>&lt;t0/&gt;Linux Recipes conference in September 2017（https://kernel-recipes.org/en/2017/）&lt;t1/&gt;での私の発表も、この内容を基にしました。（&lt;t2/&gt;ここで見られますhttps://www.youtube.com/watch?v=RKadXpQLmPU&lt;t3/&gt;）</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180417T085603Z" creationid="hfukuchi" creationdate="20180328T030942Z">
+        <seg>&lt;t0/&gt;Linux Recipes conference in September 2017（https://kernel-recipes.org/en/2017/）&lt;t1/&gt;での私の発表も、この内容を基にしました。（&lt;t2/&gt;こちらで見られますhttps://www.youtube.com/watch?v=RKadXpQLmPU&lt;t3/&gt;）</seg>
       </tuv>
     </tu>
     <tu>
@@ -624,8 +624,8 @@
       <tuv lang="EN-US">
         <seg>It's pointless and wrong because it makes people think that other bugs</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20180412T064812Z" creationid="hfukuchi" creationdate="20180402T064924Z">
-        <seg>それは意味がないし、間違ってもいます。と言うのも、そのやり方は、人々に、他の不具合で</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180417T090127Z" creationid="hfukuchi" creationdate="20180402T064924Z">
+        <seg>それは意味がないし、間違ってもいます。というのも、そのやり方は、人々に、他の不具合で</seg>
       </tuv>
     </tu>
     <tu>
@@ -760,8 +760,8 @@
       <tuv lang="EN-US">
         <seg>Originally it was merely based on what kernel the stable maintainer’s employer was using for their product (2.6.16.y and 2.6.27.y) in order to make the effort of maintaining that kernel easier.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20180412T071503Z" creationid="hfukuchi" creationdate="20180329T024130Z">
-        <seg>当初は、Stableメンテナーの所属する企業の製品に利用されているKernelが、保守を楽にする目的で選ばれました。(2.6.16.yと2.6.27.y)　</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180417T090719Z" creationid="hfukuchi" creationdate="20180329T024130Z">
+        <seg>当初は、Stableメンテナーの所属する企業の製品に利用されているKernelが、保守を楽にする目的で選ばれました。（2.6.16.yと2.6.27.y）</seg>
       </tuv>
     </tu>
     <tu>
@@ -1080,8 +1080,8 @@
       <tuv lang="EN-US">
         <seg>There were 5 different releases in 2017, with each release containing between 12,000 and 14,500 different changes.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20180328T055210Z" creationid="hfukuchi" creationdate="20180328T055210Z">
-        <seg>2017年には5回のリリースが行われ、毎回12,000から14,500か所の変更が入っています。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180417T090004Z" creationid="hfukuchi" creationdate="20180328T055210Z">
+        <seg>2017年には5回のリリースが行われ、毎回12,000から14,500か所が変更されています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1136,8 +1136,8 @@
       <tuv lang="EN-US">
         <seg>This change in development model was due to the very long release cycle prior to the 2.6 kernel (almost 3 years), and the struggle to maintain two different branches of the codebase at the same time.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20180412T070015Z" creationid="hfukuchi" creationdate="20180328T064938Z">
-        <seg>この開発モデルの変更は、Kernel 2.6より前は非常に長いリリース サイクル（3年程度）であったことと、コードベース中の2つの異なるブランチを同時に維持することに苦闘したことが理由で行われました。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180417T090531Z" creationid="hfukuchi" creationdate="20180328T064938Z">
+        <seg>この開発モデルの変更は、Kernel 2.6より以前は非常に長いリリース サイクル（3年程度）であったことと、コードベース中の2つの異なるブランチを同時に維持することに苦闘したことが理由で行われました。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1176,8 +1176,8 @@
       <tuv lang="EN-US">
         <seg>This post describes how the Linux kernel development model works, what a long term supported kernel is, how the kernel developers approach security bugs, and why all systems that use Linux should be using all of the stable releases and not attempting to pick and choose random patches.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20180412T064229Z" creationid="hfukuchi" creationdate="20180328T053627Z">
-        <seg>この投稿では、Linux Kernel開発モデルがどのように運用されているか、長期サポート（long term supported）Kernel（訳注：本文書内でLTSはLong Term Stableを指します。長期サポートを意味するときにはLong Term Supportが使われます。）とはどのようなものか、Kernel開発者はセキュリティ不具合にどのように挑むか、また、Linuxを利用する全システムはパッチのつまみ食い（必要そうなところだけの選択）を止めてすべてのStableパッチを取り込むべきである理由、を説明します。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180417T085944Z" creationid="hfukuchi" creationdate="20180328T053627Z">
+        <seg>この投稿では、Linux Kernel開発モデルがどのように運用されているか、長期サポート（long term supported）Kernel（訳注：本文書内でLTSはLong Term Stableを指します。長期サポートを意味するときにはLong Term Supportが使われます。）とはどのようなものか、Kernel開発者はセキュリティ不具合にどのように挑むか、また、Linuxを利用する全システムはパッチのつまみ食い（必要そうなところだけの選択）を止めてすべてのStableパッチを取り込むべき理由、を説明します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1248,8 +1248,8 @@
       <tuv lang="EN-US">
         <seg>This was done on purpose as previously, when companies and kernel developers knew ahead of time what the next LTS kernel was going to be, they relaxed their normal stringent review process and allowed lots of untested code to be merged (2.6.32.y).</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20180412T073212Z" creationid="hfukuchi" creationdate="20180329T044737Z">
-        <seg>以前、企業や開発者が次のLTS Kernelになるものを事前に知っていたときに、通常は厳しいはずのレビュープロセスを緩和し、テストしていない多数のコードをマージした（2.6.32.y）ことが理由で、こう言う宣言の方法が行われました。　</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180417T090203Z" creationid="hfukuchi" creationdate="20180329T044737Z">
+        <seg>以前、企業や開発者が次のLTS Kernelになるものを事前に知っていたときに、通常は厳しいはずのレビュープロセスを緩和し、テストしていない多数のコードをマージした（2.6.32.y）ことが理由で、こういう宣言の方法が行われました。　</seg>
       </tuv>
     </tu>
     <tu>
@@ -1360,8 +1360,8 @@
       <tuv lang="EN-US">
         <seg>With the &lt;t0/&gt;recent craziness of Meltdown and Spectre&lt;t1/&gt; , I’ve seen lots of things written about how Linux is released and how we handle handles security patches that are totally incorrect, so I figured it is time to dust off the text, update it in a few places, and publish this here for everyone to benefit from.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20180411T090832Z" creationid="hfukuchi" creationdate="20180328T044626Z">
-        <seg>&lt;t0/&gt;最近起きたMeltdownとSpectreに関する大騒ぎ&lt;t1/&gt;の最中に、Linuxのリリース方法やセキュリティ パッチの管理について書かれた多くのものを見ましたが、全く間違っていました。それで、ホワイトペーパーのほこりを払う時機が来たことを知り、数か所だけ書き換え、皆さんのためになるようにここに公開することにしたのです。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180417T085811Z" creationid="hfukuchi" creationdate="20180328T044626Z">
+        <seg>&lt;t0/&gt;最近起きたMeltdownとSpectreに関する大騒動&lt;t1/&gt;の最中に、Linuxのリリース方法やセキュリティ パッチの管理について書かれた多くのものを見ましたが、その内容は全く間違っていました。それで、ホワイトペーパーのほこりを払う時機が来たことを知り、数か所だけ書き換え、皆さんのためになるようにここに公開することにしました。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1408,8 +1408,8 @@
       <tuv lang="EN-US">
         <seg>because I don't want to perpetuate the myth of "security fixes" as a</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20180412T064803Z" creationid="hfukuchi" creationdate="20180402T063528Z">
-        <seg>と言うのも、「セキュリティ修正」は「単なる普通の不具合修正」とは別物であるという神話を</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180417T090127Z" creationid="hfukuchi" creationdate="20180402T063528Z">
+        <seg>というのも、「セキュリティ修正」は「単なる普通の不具合修正」とは別物であるという神話を</seg>
       </tuv>
     </tu>
     <tu>
@@ -1512,16 +1512,16 @@
       <tuv lang="EN-US">
         <seg>private for a reason, even if it's real information.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20180412T064956Z" creationid="hfukuchi" creationdate="20180402T082403Z">
-        <seg>プライベートであるわけです。たとえ、それが重要な情報であってもです。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180417T090908Z" creationid="hfukuchi" creationdate="20180402T082403Z">
+        <seg>プライベートであるわけです。たとえ、それが重要な情報であっても、です。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>private) an example exploit of the problem to the security mailing list</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20180412T064841Z" creationid="hfukuchi" creationdate="20180402T081630Z">
-        <seg>送ってくれると言うものです。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180417T090203Z" creationid="hfukuchi" creationdate="20180402T081630Z">
+        <seg>送ってくれるというものです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1544,16 +1544,16 @@
       <tuv lang="EN-US">
         <seg>should work.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20180412T064923Z" creationid="hfukuchi" creationdate="20180402T082117Z">
-        <seg>物事が動くべき方法と言うものでしょう。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180417T090203Z" creationid="hfukuchi" creationdate="20180402T082117Z">
+        <seg>物事が動くべき方法というものでしょう。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>that single word: "relevant".</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20180412T064831Z" creationid="hfukuchi" creationdate="20180402T074718Z">
-        <seg>「関連する」と言う単語のところです。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20180417T090203Z" creationid="hfukuchi" creationdate="20180402T074718Z">
+        <seg>「関連する」という単語のところです。</seg>
       </tuv>
     </tu>
     <tu>
