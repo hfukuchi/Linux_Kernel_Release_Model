@@ -8,3 +8,4 @@ Greg Kroah-Hartman氏のブログの「Linux Kernel Release Model」を翻訳す
 
 日本語訳は、releaseフォルダの下をご覧下さい。
 
+https://github.com/hfukuchi/Linux_Kernel_Release_Model/tree/master/release
